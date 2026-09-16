@@ -1,3 +1,12 @@
+using Lab05teo.Models;
+using Lab05teo.Repositories;
+using Lab05teo.Repositories.Implements;
+using Lab05teo.Services;
+using Lab05teo.Services.Implements;
+using Lab05teo.UnitOfWork;
+using Lab05teo.UnitOfWork.Implements;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
